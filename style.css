@@ -244,7 +244,8 @@ header {
 
 .social-link-item:hover .social-icon-media {
   transform: scale(1.1);    
-  opacity: 1;               
+  opacity: 1; 
+               
 }
 
 
