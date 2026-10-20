@@ -1,0 +1,256 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #000000; /* Cor de fundo escura conforme o Figma */
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333333;
+  margin: 40px auto;
+  max-width: 530px;
+  width: 100%;
+}
+
+
+
+header {
+  padding: 20px 0;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.header-inicial {
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.header-inicial a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.header-inicial a:hover {
+  color: #0409ff;
+}
+
+
+.perfil-section {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.foto-perfil {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.info-principal h2 {
+  margin-bottom: 4px;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.tag {
+  color: #aaaaaa;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.localizacao {
+  color: #888888;
+  font-size: 14px;
+}
+
+.apresentacao {
+  max-width: 530px;
+  margin: 25px auto 0 auto;
+  padding: 0 10px;
+}
+
+.apresentacao p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+
+.conteudo-section, 
+.projetos-section {
+  width: 100%;
+  max-width: 530px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Blocos de projetos individuais empilhados */
+.projeto-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Cards de título brancos simulando o design do Figma */
+.figma-title-card {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+/* Caixa de texto preta estruturada */
+.figma-text-box {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  width: 100%;
+  padding: 28px 24px;
+  border-radius: 6px;
+  border: 1px solid #2d2d2d;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.print-container {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #444444;
+  overflow: hidden;
+  display: flex;
+}
+
+.print-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+#contato {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#contato h2 {
+  margin-bottom: 10px;
+}
+
+
+.footer-description {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+
+.social-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;   
+  gap: 24px;               
+  margin-top: 30px;
+}
+
+.social-link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;    
+  gap: 12px;              
+}
+
+
+.social-icon-media {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+
+.github-dimmed {
+  opacity: 0.6;
+}
+
+
+.social-badge {
+  width: 85px;             
+  min-height: 24px;
+  background-color: #ffffff;
+  color: #000000;           
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;     
+  padding: 4px 8px;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+
+
+.social-link-item:hover .social-icon-media {
+  transform: scale(1.1);    
+  opacity: 1;               
+}
+
+
+.copyright {
+  color: #888888;
+  font-size: 12px;
+  margin-top: 40px;
+  text-align: center;
+}
