@@ -245,9 +245,13 @@ header {
 .social-link-item:hover .social-icon-media {
   transform: scale(1.1);    
   opacity: 1; 
-               
+          
 }
 
+.social-link-item img{
+ filter: invert(1);    
+}
+      
 
 .copyright {
   color: #888888;
